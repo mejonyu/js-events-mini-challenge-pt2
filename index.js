@@ -55,7 +55,7 @@ function renderAnimalSightingPost(animalObject) {
     deleteButton.textContent = 'Delete'
     
     const updateButton = document.createElement('button')
-    updateButton.classList.add('update-button')
+    updateButton.classList.add('toggle-update-form-button')
     updateButton.type = 'button'
     updateButton.textContent = 'Toggle Update Form'
 

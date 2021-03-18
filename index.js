@@ -42,6 +42,7 @@ function renderAnimalSightingPost(animalObject) {
     a.textContent = `Here's a video about the ${animalObject.species} species!`
 
     const sightLikesPtag = document.createElement('p')
+    sightLikesPtag.className = 'likes-display'
     sightLikesPtag.textContent = `${animalObject.likes} Likes`
 
     const likeButton = document.createElement('button')

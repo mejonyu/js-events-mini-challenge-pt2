@@ -64,7 +64,7 @@ function renderAnimalSightingPost(animalObject) {
     updateForm.className = 'update-form'
     updateForm.innerHTML = `
     <input type='text' value='${animalObject.description}'/>
-    <input type="submit" value="Update ${animalObject.species}" />
+    <input type="submit" value="Update description" />
     `
     updateForm.style.display = 'none'
 
